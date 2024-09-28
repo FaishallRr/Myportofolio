@@ -969,6 +969,9 @@ li {
     -ms-transform: translatex(-80px);
     -o-transform: translatex(-80px);
   }
+  .title {
+    font-size: 30px;
+  }
   .wrapper {
     width: 100%;
     max-width: 500px;
@@ -980,6 +983,9 @@ li {
     width: 100%;
     max-width: 35px;
     margin-left: 5px;
+  }
+  .title {
+    font-size: 30px;
   }
   .text {
     width: 100%;
@@ -1030,6 +1036,7 @@ li {
   }
   .wrapper-1 {
     margin-top: 50px;
+    margin-bottom: 15px;
   }
   .wrapper-project {
     margin-top: -50px;
@@ -1206,6 +1213,9 @@ li {
     max-width: 500px;
     margin-left: 15px;
   }
+  .title {
+    font-size: 30px;
+  }
   .username {
     width: 100%;
     max-width: 700px;
@@ -1244,6 +1254,7 @@ li {
   }
   .wrapper-1 {
     margin-top: 50px;
+    margin-bottom: 15px;
   }
   .wrapper-project {
     margin-top: -50px;
@@ -1421,6 +1432,9 @@ li {
     max-width: 500px;
     margin-left: 15px;
   }
+  .title {
+    font-size: 30px;
+  }
   .username {
     width: 100%;
     max-width: 700px;
@@ -1451,6 +1465,7 @@ li {
   }
   .wrapper-1 {
     margin-top: 50px;
+    margin-bottom: 15px;
   }
   .wrapper-project {
     margin-top: -50px;
@@ -1672,6 +1687,10 @@ li {
   }
   .wrapper-1 {
     margin-top: 50px;
+    margin-bottom: 15px;
+  }
+  .title {
+    font-size: 30px;
   }
   .wrapper-project {
     margin-top: -50px;
@@ -1904,6 +1923,7 @@ li {
   }
   .wrapper-1 {
     margin-top: 45px;
+    margin-bottom: 15px;
   }
   .wrapper-project {
     width: 100%;
