@@ -35,7 +35,11 @@
       <h1 class="logo">𝔉𝔞𝔦𝔰𝔥𝔞𝔩𝔩ℜ𝔯.</h1>
       <nav>
         <ul>
-          <li><a href="#home" class="navbar" href="#home">𝐇𝐨𝐦𝐞 </a></li>
+          <li>
+            <a href="#home" class="navbar" style="color: red" href="#home"
+              >𝐇𝐨𝐦𝐞
+            </a>
+          </li>
           <li><a href="#about" class="navbar" href="#about">𝐀𝐛𝐨𝐮𝐭 </a></li>
           <li>
             <a href="#project" class="navbar" href="#service">𝐏𝐫𝐨𝐣𝐞𝐜𝐭 </a>
@@ -101,7 +105,7 @@
         <img class="owner" src="./img/owner.jpg" alt="owner" />
         <div class="title-1">
           <p class="title-3" style="color: #37507e">
-            Ngoding Mulu jadi kagak #fucklah
+            Ngoding MULU jadi kagak #fucklah
           </p>
           <div class="title-2">
             <p class="title-2">Gapapa Semua Butuh Proses, Semoga Bisa Tamat</p>
@@ -205,7 +209,7 @@
         <div class="skill-bars">
           <div class="bar">
             <div class="info">
-              <span>Web Development</span>
+              <span>HTML</span>
             </div>
             <div class="progress-line html">
               <span></span>
@@ -213,7 +217,7 @@
           </div>
           <div class="bar">
             <div class="info">
-              <span>Front End</span>
+              <span>CSS</span>
             </div>
             <div class="progress-line css">
               <span></span>
@@ -221,7 +225,7 @@
           </div>
           <div class="bar">
             <div class="info">
-              <span>Back End</span>
+              <span>Javascript</span>
             </div>
             <div class="progress-line javascript">
               <span></span>
@@ -232,7 +236,7 @@
         <div class="skill-bars">
           <div class="bar">
             <div class="info">
-              <span>Mobile</span>
+              <span>PHP</span>
             </div>
             <div class="progress-line microsoft">
               <span></span>
@@ -240,7 +244,7 @@
           </div>
           <div class="bar">
             <div class="info">
-              <span>DataBase</span>
+              <span>Mobile</span>
             </div>
             <div class="progress-line adobe">
               <span></span>
@@ -249,6 +253,102 @@
         </div>
       </div>
       <p class="inclined-text">- My Skill</p>
+    </div>
+
+    <div class="slideshow-container">
+      <center>
+        <div class="mySlides fade">
+          <div class="numbertext"></div>
+          <img src="/img/gambar-1.jpg" style="width: 100%" />
+          <div class="text" style="color: white"></div>
+        </div>
+
+        <div class="mySlides fade">
+          <div class="numbertext"></div>
+          <img src="/img/gambar-2.jpg" style="width: 100%" />
+          <div class="text"></div>
+        </div>
+
+        <div class="mySlides fade">
+          <div class="numbertext"></div>
+          <img src="/img/gambar-3.jpg" style="width: 100%" />
+          <div class="text"></div>
+        </div>
+
+        <div class="mySlides fade">
+          <div class="numbertext"></div>
+          <img src="/img/gambar-4.jpg" style="width: 100%" />
+          <div class="text"></div>
+        </div>
+      </center>
+    </div>
+    <br />
+
+    <div style="text-align: center">
+      <span class="dot"></span>
+      <span class="dot"></span>
+      <span class="dot"></span>
+      <span class="dot"></span>
+    </div>
+
+    <br />
+
+    <script>
+      let slideIndex = 0;
+      showSlides();
+
+      function showSlides() {
+        let i;
+        let slides = document.getElementsByClassName("mySlides");
+        let dots = document.getElementsByClassName("dot");
+        for (i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none";
+        }
+        slideIndex++;
+        if (slideIndex > slides.length) {
+          slideIndex = 1;
+        }
+        for (i = 0; i < dots.length; i++) {
+          dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slides[slideIndex - 1].style.display = "block";
+        dots[slideIndex - 1].className += " active";
+        setTimeout(showSlides, 2000); // Change image every 2 seconds
+      }
+    </script>
+
+    <div id="skill" class="wrapper-skill">
+      <div class="text-center">
+        <h1 class="title"><span style="color: red">𝔉𝔞𝔦𝔰𝔥𝔞𝔩𝔩ℜ𝔯</span></h1>
+        <div class="line-1"></div>
+        <p class="description">Contact</p>
+      </div>
+    </div>
+
+    <div class="container-3">
+      <div class="wrapper-2">
+        <div class="title-1">
+          <p class="title-3" style="color: #37507e">
+            Tak kenal mari kita kenalan :))
+          </p>
+          <div class="title-2">
+            <p class="title-2">Nomer dan Email yang bisa kalian hubungin</p>
+          </div>
+          <div class="icons-1">
+            <a href="https://wa.me/62895703047094" class="huruf-icon">
+              <i class="text-icon fa-brands fa-whatsapp icons-1"> </i>
+              +62-8957-0304-7094</a
+            >
+          </div>
+          <div class="icons-1">
+            <a href="mailto: faishalrasyid4@gmail.com" class="huruf-icon">
+              <i class="text-icon fa-solid fa-envelope icons-1"> </i>
+            </a>
+            <p class="icons-text">faishalrasyid4@gmail.com</p>
+          </div>
+        </div>
+        <img class="container-owner owner" src="./img/bg2.jpg" alt="owner" />
+      </div>
     </div>
   </body>
 </html>

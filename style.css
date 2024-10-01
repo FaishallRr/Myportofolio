@@ -185,6 +185,20 @@ li {
   background-color: #e5e9f8;
 }
 
+.container-3 {
+  width: 100%;
+  height: auto;
+  padding: 0;
+  padding-top: 90px;
+  display: flex;
+  gap: 1px;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 40px;
+  margin-top: -40px;
+  flex-direction: column;
+}
+
 .inclined-text {
   display: inline-block;
   /*Agartransformasibekerjadenganbaik*/
@@ -467,19 +481,19 @@ li {
   animation: animate 1s 1s cubic-bezier(1, 0, 0.5, 1) forwards;
 }
 .bar .progress-line.html span {
-  width: 60%;
+  width: 75%;
 }
 .bar .progress-line.css span {
-  width: 35%;
+  width: 55%;
 }
 .bar .progress-line.javascript span {
   width: 35%;
 }
 .bar .progress-line.microsoft span {
-  width: 20%;
+  width: 30%;
 }
 .bar .progress-line.adobe span {
-  width: 45%;
+  width: 15%;
 }
 .progress-line span::before {
   position: absolute;
@@ -514,19 +528,19 @@ li {
   }
 }
 .progress-line.html span::after {
-  content: "60%";
+  content: "75%";
 }
 .progress-line.css span::after {
-  content: "35%";
+  content: "55%";
 }
 .progress-line.javascript span::after {
   content: "35%";
 }
 .progress-line.microsoft span::after {
-  content: "20%";
+  content: "30%";
 }
 .progress-line.adobe span::after {
-  content: "45%";
+  content: "15%";
 }
 
 .skill {
@@ -742,6 +756,61 @@ li {
 .btn-next-2:hover:after {
   opacity: 1;
   right: 10px;
+}
+
+.slideshow-container {
+  transform: translateY(30px);
+  max-width: 500px;
+  position: relative;
+  margin: auto;
+  -webkit-transform: translateY(30px);
+  -moz-transform: translateY(30px);
+  -ms-transform: translateY(30px);
+  -o-transform: translateY(30px);
+}
+
+.icons-1 {
+  font-size: 40px;
+  color: #363b4a;
+  margin-bottom: 20px;
+  transform: translateX(-20px);
+  -webkit-transform: translateX(-20px);
+  -moz-transform: translateX(-20px);
+  -ms-transform: translateX(-20px);
+  -o-transform: translateX(-20px);
+}
+
+.icons-1:hover {
+  color: red;
+  transition: all 0.5s ease 0s;
+  -webkit-transition: all 0.5s ease 0s;
+  -moz-transition: all 0.5s ease 0s;
+  -ms-transition: all 0.5s ease 0s;
+  -o-transition: all 0.5s ease 0s;
+}
+
+.huruf-icon {
+  font-size: 28px;
+  color: black;
+  margin-left: 40px;
+  text-decoration: none;
+}
+
+.text-icon {
+  transform: translateX(-25px) translateY(5px);
+  -webkit-transform: translateX(-25px) translateY(5px);
+  -moz-transform: translateX(-25px) translateY(5px);
+  -ms-transform: translateX(-25px) translateY(5px);
+  -o-transform: translateX(-25px) translateY(5px);
+}
+
+.icons-text {
+  font-size: 28px;
+  transform: translateX(80px) translateY(-80px);
+  -webkit-transform: translateX(80px) translateY(-80px);
+  -moz-transform: translateX(80px) translateY(-80px);
+  -ms-transform: translateX(80px) translateY(-80px);
+  -o-transform: translateX(80px) translateY(-80px);
 }
 
 @media screen and (max-width: 1200px) {
@@ -2074,5 +2143,60 @@ li {
   }
   .background-project {
     margin-left: 10px;
+  }
+  .logo {
+    transform: translateX(-30px);
+    -webkit-transform: translateX(-30px);
+    -moz-transform: translateX(-30px);
+    -ms-transform: translateX(-30px);
+    -o-transform: translateX(-30px);
+  }
+
+  .icons-1 {
+    margin-bottom: 20px;
+    transform: translateX(-20px);
+    -webkit-transform: translateX(-20px);
+    -moz-transform: translateX(-20px);
+    -ms-transform: translateX(-20px);
+    -o-transform: translateX(-20px);
+  }
+  .icons-1:hover {
+    color: red;
+    transition: all 0.5s ease 0s;
+    -webkit-transition: all 0.5s ease 0s;
+    -moz-transition: all 0.5s ease 0s;
+    -ms-transition: all 0.5s ease 0s;
+    -o-transition: all 0.5s ease 0s;
+  }
+
+  .huruf-icon {
+    font-size: 23px;
+    color: black;
+    text-decoration: none;
+  }
+
+  .text-icon {
+    transform: translateX(-20px) translateY(5px);
+    -webkit-transform: translateX(-20px) translateY(5px);
+    -moz-transform: translateX(-20px) translateY(5px);
+    -ms-transform: translateX(-20px) translateY(5px);
+    -o-transform: translateX(-20px) translateY(5px);
+  }
+
+  .icons-text {
+    font-size: 25px;
+    transform: translateX(80px) translateY(-77px);
+    -webkit-transform: translateX(80px) translateY(-77px);
+    -moz-transform: translateX(80px) translateY(-77px);
+    -ms-transform: translateX(80px) translateY(-77px);
+    -o-transform: translateX(80px) translateY(-77px);
+  }
+
+  .container-3 {
+    margin-top: -160px;
+  }
+
+  .container-owner {
+    margin-top: -60px;
   }
 }
