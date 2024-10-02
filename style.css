@@ -195,7 +195,7 @@ li {
   gap: 1px;
   justify-content: center;
   align-items: center;
-  margin-bottom: 40px;
+  margin-bottom: 0px;
   flex-direction: column;
   background-color: #e5e9f8;
   margin-top: -80px;
@@ -2254,7 +2254,7 @@ li {
     gap: 1px;
     justify-content: center;
     align-items: center;
-    margin-bottom: 40px;
+    margin-bottom: 0px;
     flex-direction: column;
     background-color: #e5e9f8;
     margin-top: -80px;
