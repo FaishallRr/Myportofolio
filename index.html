@@ -32,7 +32,7 @@
   <body>
     <div id="home"></div>
     <header>
-      <h1 class="logo"><a href="#home" class="logos">𝔉𝔞𝔦𝔰𝔥𝔞𝔩𝔩ℜ𝔯.</a></h1>
+      <h1 class="logo"><a href="#home" class="icon-1">𝔉𝔞𝔦𝔰𝔥𝔞𝔩𝔩ℜ𝔯.</a></h1>
       <nav>
         <ul>
           <li>
@@ -94,7 +94,9 @@
 
     <div id="about" class="wrapper-1">
       <div class="text-center">
-        <h1 class="title"><span style="color: red">𝔉𝔞𝔦𝔰𝔥𝔞𝔩𝔩ℜ𝔯</span></h1>
+        <h1 class="title">
+          <span href="#home" style="color: red">𝔉𝔞𝔦𝔰𝔥𝔞𝔩𝔩ℜ𝔯</span>
+        </h1>
         <div class="line-1"></div>
         <p class="description">About Me</p>
       </div>
@@ -258,66 +260,49 @@
       <p class="inclined-text">- My Skill</p>
     </div>
 
-    <div class="slideshow-container">
-      <center>
-        <div class="mySlides fade">
-          <div class="numbertext"></div>
-          <img src="/img/gambar-1.jpg" style="width: 100%" />
-          <div class="text" style="color: white"></div>
-        </div>
+    <div class="logo-container-1">
+      <div class="logos-1">
+        <img src="./img/gambar-1.jpg" alt="Logo 1" />
+        <img src="./img/gambar-2.jpg" alt="Logo 2" />
+        <img src="./img/gambar-3.jpg" alt="Logo 3" />
+        <img src="./img/gambar-4.jpg" alt="Logo 4" />
+        <img src="./img/gambar-1.jpg" alt="Logo 5" />
+        <img src="./img/gambar-2.jpg" alt="Logo 6" />
+        <img src="./img/gambar-3.jpg" alt="Logo 7" />
+        <img src="./img/gambar-4.jpg" alt="Logo 8" />
 
-        <div class="mySlides fade">
-          <div class="numbertext"></div>
-          <img src="/img/gambar-2.jpg" style="width: 100%" />
-          <div class="text"></div>
-        </div>
+        <img src="./img/gambar-1.jpg" alt="Logo 1" />
+        <img src="./img/gambar-2.jpg" alt="Logo 2" />
+        <img src="./img/gambar-3.jpg" alt="Logo 3" />
+        <img src="./img/gambar-4.jpg" alt="Logo 4" />
+        <img src="./img/gambar-1.jpg" alt="Logo 5" />
+        <img src="./img/gambar-2.jpg" alt="Logo 6" />
+        <img src="./img/gambar-3.jpg" alt="Logo 7" />
+        <img src="./img/gambar-4.jpg" alt="Logo 8" />
 
-        <div class="mySlides fade">
-          <div class="numbertext"></div>
-          <img src="/img/gambar-3.jpg" style="width: 100%" />
-          <div class="text"></div>
-        </div>
-
-        <div class="mySlides fade">
-          <div class="numbertext"></div>
-          <img src="/img/gambar-4.jpg" style="width: 100%" />
-          <div class="text"></div>
-        </div>
-      </center>
+        <img src="./img/gambar-1.jpg" alt="Logo 1" />
+        <img src="./img/gambar-2.jpg" alt="Logo 2" />
+        <img src="./img/gambar-3.jpg" alt="Logo 3" />
+        <img src="./img/gambar-4.jpg" alt="Logo 4" />
+        <img src="./img/gambar-1.jpg" alt="Logo 5" />
+        <img src="./img/gambar-2.jpg" alt="Logo 6" />
+        <img src="./img/gambar-3.jpg" alt="Logo 7" />
+        <img src="./img/gambar-4.jpg" alt="Logo 8" />
+      </div>
     </div>
-    <br />
-
-    <div style="text-align: center">
-      <span class="dot"></span>
-      <span class="dot"></span>
-      <span class="dot"></span>
-      <span class="dot"></span>
-    </div>
-
-    <br />
 
     <script>
-      let slideIndex = 0;
-      showSlides();
+      document.addEventListener("DOMContentLoaded", function () {
+        const logos = document.querySelector(".logos");
 
-      function showSlides() {
-        let i;
-        let slides = document.getElementsByClassName("mySlides");
-        let dots = document.getElementsByClassName("dot");
-        for (i = 0; i < slides.length; i++) {
-          slides[i].style.display = "none";
-        }
-        slideIndex++;
-        if (slideIndex > slides.length) {
-          slideIndex = 1;
-        }
-        for (i = 0; i < dots.length; i++) {
-          dots[i].className = dots[i].className.replace(" active", "");
-        }
-        slides[slideIndex - 1].style.display = "block";
-        dots[slideIndex - 1].className += " active";
-        setTimeout(showSlides, 2000); // Change image every 2 seconds
-      }
+        // Gandakan konten logo agar scrolling terlihat terus menerus
+        logos.innerHTML +=
+          logos.innerHTML +=
+          logos.innerHTML +=
+          logos.innerHTML +=
+          logos.innerHTML +=
+            logos.innerHTML;
+      });
     </script>
 
     <div id="skill" class="wrapper-skill-1">
