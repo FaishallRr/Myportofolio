@@ -1376,6 +1376,7 @@ li {
     width: 100%;
     max-width: 700px;
     font-size: 28px;
+    margin-left: 32px;
   }
   .font-text-intro {
     width: 88%;
@@ -1595,6 +1596,7 @@ li {
     width: 100%;
     max-width: 700px;
     font-size: 28px;
+    margin-left: 30px;
   }
   .font-text-intro {
     width: 88%;
@@ -1817,6 +1819,7 @@ li {
     width: 100%;
     max-width: 700px;
     font-size: 28px;
+    margin-left: 28px;
   }
   .font-text-intro {
     width: 88%;
@@ -2035,11 +2038,11 @@ li {
     -o-transform: translatex(-15px);
   }
   .icons {
-    transform: translatex(-25px);
-    -webkit-transform: translatex(-25px);
-    -moz-transform: translatex(-25px);
-    -ms-transform: translatex(-25px);
-    -o-transform: translatex(-25px);
+    transform: translatex(-18px);
+    -webkit-transform: translatex(-18px);
+    -moz-transform: translatex(-18px);
+    -ms-transform: translatex(-18px);
+    -o-transform: translatex(-18px);
   }
   .wrapper {
     width: 100%;
