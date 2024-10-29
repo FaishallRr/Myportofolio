@@ -2106,7 +2106,7 @@ li {
     flex-direction: column;
   }
   .wrapper-1 {
-    margin-top: 45px;
+    margin-top: 10px;
     margin-bottom: 15px;
   }
   .wrapper-project {
@@ -2133,11 +2133,13 @@ li {
     max-width: 500px;
     flex-wrap: wrap;
     justify-content: center;
+    margin-top: -40px;
   }
   .title-1 {
     width: 100%;
     max-width: 500px;
     margin-right: 60px;
+    margin-top: -50px;
   }
   .title-3 {
     width: 100%;
@@ -2317,6 +2319,8 @@ li {
     margin-top: -60px;
   }
   .container {
+    width: 100%;
+    height: 680px;
     margin-top: -45px;
   }
   .container-3 {
@@ -2347,5 +2351,8 @@ li {
     margin: 0 -20px;
     margin-top: -50px;
     margin-bottom: -5px;
+  }
+  .project-akhir {
+    height: 1250px;
   }
 }
