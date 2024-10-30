@@ -1900,11 +1900,12 @@ li {
     -o-transform: translatex(-15px);
   }
   .icon {
-    transform: translatex(40px);
-    -webkit-transform: translatex(40px);
-    -moz-transform: translatex(40px);
-    -ms-transform: translatex(40px);
-    -o-transform: translatex(40px);
+    width: 320px;
+    transform: translatex(80px);
+    -webkit-transform: translatex(80px);
+    -moz-transform: translatex(80px);
+    -ms-transform: translatex(80px);
+    -o-transform: translatex(80px);
   }
   .wrapper {
     width: 100%;
