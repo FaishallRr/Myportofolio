@@ -1899,12 +1899,12 @@ li {
     -ms-transform: translatex(-15px);
     -o-transform: translatex(-15px);
   }
-  .icons {
-    transform: translatex(-45px);
-    -webkit-transform: translatex(-45px);
-    -moz-transform: translatex(-45px);
-    -ms-transform: translatex(-45px);
-    -o-transform: translatex(-45px);
+  .icon {
+    transform: translatex(40px);
+    -webkit-transform: translatex(40px);
+    -moz-transform: translatex(40px);
+    -ms-transform: translatex(40px);
+    -o-transform: translatex(40px);
   }
   .wrapper {
     width: 100%;
@@ -1946,7 +1946,7 @@ li {
   .btn-next {
     right: 95px;
     margin-bottom: 70px;
-    margin-left: 80px;
+    margin-left: 120px;
   }
   .img-owner {
     width: 87%;
