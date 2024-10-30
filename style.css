@@ -1567,12 +1567,12 @@ li {
     -ms-transform: translatex(-15px);
     -o-transform: translatex(-15px);
   }
-  .icons {
-    transform: translatex(-60px);
-    -webkit-transform: translatex(-60px);
-    -moz-transform: translatex(-60px);
-    -ms-transform: translatex(-60px);
-    -o-transform: translatex(-60px);
+  .icon {
+    transform: translatex(45px);
+    -webkit-transform: translatex(45px);
+    -moz-transform: translatex(45px);
+    -ms-transform: translatex(45px);
+    -o-transform: translatex(45px);
   }
   .wrapper {
     width: 100%;
@@ -1614,7 +1614,7 @@ li {
   .btn-next {
     right: 95px;
     margin-bottom: 70px;
-    margin-left: 50px;
+    margin-left: 120px;
   }
   .img-owner {
     width: 87%;
@@ -1706,11 +1706,11 @@ li {
     flex-direction: column;
     flex-wrap: wrap;
     display: block;
-    transform: translateX(60px);
-    -webkit-transform: translateX(60px);
-    -moz-transform: translateX(60px);
-    -ms-transform: translateX(60px);
-    -o-transform: translateX(60px);
+    transform: translateX(40px);
+    -webkit-transform: translateX(40px);
+    -moz-transform: translateX(40px);
+    -ms-transform: translateX(40px);
+    -o-transform: translateX(40px);
   }
   .container-img {
     width: 300px;
@@ -1901,11 +1901,11 @@ li {
   }
   .icon {
     width: 320px;
-    transform: translatex(80px);
-    -webkit-transform: translatex(80px);
-    -moz-transform: translatex(80px);
-    -ms-transform: translatex(80px);
-    -o-transform: translatex(80px);
+    transform: translatex(100px);
+    -webkit-transform: translatex(100px);
+    -moz-transform: translatex(100px);
+    -ms-transform: translatex(100px);
+    -o-transform: translatex(100px);
   }
   .wrapper {
     width: 100%;
