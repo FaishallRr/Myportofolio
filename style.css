@@ -2042,11 +2042,11 @@ li {
     flex-direction: column;
     flex-wrap: wrap;
     display: block;
-    transform: translateX(25px);
-    -webkit-transform: translateX(25px);
-    -moz-transform: translateX(25px);
-    -ms-transform: translateX(25px);
-    -o-transform: translateX(25px);
+    transform: translateX(20px);
+    -webkit-transform: translateX(20px);
+    -moz-transform: translateX(20px);
+    -ms-transform: translateX(20px);
+    -o-transform: translateX(20px);
   }
   .container-img {
     width: 300px;
