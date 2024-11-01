@@ -1289,7 +1289,7 @@ li {
     width: 0;
     overflow: hidden;
     max-width: 700px;
-    font-size: 29px;
+    font-size: 27.5px;
     margin-left: 20px;
   }
   .font-text-intro {
@@ -1398,11 +1398,11 @@ li {
     max-width: 360px;
     flex-direction: column;
     display: block;
-    transform: translateX(15px);
-    -webkit-transform: translateX(15px);
-    -moz-transform: translateX(15px);
-    -ms-transform: translateX(15px);
-    -o-transform: translateX(15px);
+    transform: translateX(5px);
+    -webkit-transform: translateX(5px);
+    -moz-transform: translateX(5px);
+    -ms-transform: translateX(5px);
+    -o-transform: translateX(5px);
     background-color: transparent;
   }
   .container-img {
